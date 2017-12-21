@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166F40551FE7545E00A4CE78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F40541FE7545E00A4CE78 /* AppDelegate.m */; };
+		166F405D1FE7545E00A4CE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166F405C1FE7545E00A4CE78 /* Assets.xcassets */; };
+		166F40601FE7545E00A4CE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166F405E1FE7545E00A4CE78 /* LaunchScreen.storyboard */; };
+		166F40631FE7545E00A4CE78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F40621FE7545E00A4CE78 /* main.m */; };
+		166F406D1FE7545E00A4CE78 /* KRUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F406C1FE7545E00A4CE78 /* KRUserTests.m */; };
+		166F40781FE7545E00A4CE78 /* KRUserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F40771FE7545E00A4CE78 /* KRUserUITests.m */; };
+		166F408C1FE75D6100A4CE78 /* KRMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F408B1FE75D6100A4CE78 /* KRMyController.m */; };
+		166F408F1FE7603200A4CE78 /* KRMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166F408E1FE7603200A4CE78 /* KRMyView.m */; };
+		167804621FEA6EE6005BAA91 /* KRSettingNameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804611FEA6EE6005BAA91 /* KRSettingNameController.m */; };
+		167804651FEA6EFE005BAA91 /* KRSettingNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804641FEA6EFE005BAA91 /* KRSettingNameView.m */; };
+		167804851FEB65F6005BAA91 /* Target_KRMy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804841FEB65F6005BAA91 /* Target_KRMy.m */; };
+		16B0432C1FEA07C0000E9301 /* KRProfileSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B043221FEA07C0000E9301 /* KRProfileSettingController.m */; };
+		16B0432E1FEA07C0000E9301 /* KRProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B043291FEA07C0000E9301 /* KRProfileCell.m */; };
+		16B0432F1FEA07C0000E9301 /* KRProfileSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0432B1FEA07C0000E9301 /* KRProfileSettingView.m */; };
+		16B043391FEA0920000E9301 /* KRSettingNicknameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B043381FEA0920000E9301 /* KRSettingNicknameView.m */; };
+		16B0433D1FEA153D000E9301 /* KRSettingNicknameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0433B1FEA153D000E9301 /* KRSettingNicknameController.m */; };
+		21E02EE76748C0DEFC48C8FB /* libPods-KRUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43E5BBD1C7C25E986AF6AC6 /* libPods-KRUser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166F40691FE7545E00A4CE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166F40481FE7545E00A4CE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166F404F1FE7545E00A4CE78;
+			remoteInfo = KRUser;
+		};
+		166F40741FE7545E00A4CE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166F40481FE7545E00A4CE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166F404F1FE7545E00A4CE78;
+			remoteInfo = KRUser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166F40501FE7545E00A4CE78 /* KRUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F40531FE7545E00A4CE78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166F40541FE7545E00A4CE78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166F405C1FE7545E00A4CE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166F405F1FE7545E00A4CE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166F40611FE7545E00A4CE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F40621FE7545E00A4CE78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166F40681FE7545E00A4CE78 /* KRUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F406C1FE7545E00A4CE78 /* KRUserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRUserTests.m; sourceTree = "<group>"; };
+		166F406E1FE7545E00A4CE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F40731FE7545E00A4CE78 /* KRUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F40771FE7545E00A4CE78 /* KRUserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRUserUITests.m; sourceTree = "<group>"; };
+		166F40791FE7545E00A4CE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166F408A1FE75D6000A4CE78 /* KRMyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRMyController.h; sourceTree = "<group>"; };
+		166F408B1FE75D6100A4CE78 /* KRMyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRMyController.m; sourceTree = "<group>"; };
+		166F408D1FE7603200A4CE78 /* KRMyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRMyView.h; sourceTree = "<group>"; };
+		166F408E1FE7603200A4CE78 /* KRMyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRMyView.m; sourceTree = "<group>"; };
+		167804601FEA6EE6005BAA91 /* KRSettingNameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingNameController.h; sourceTree = "<group>"; };
+		167804611FEA6EE6005BAA91 /* KRSettingNameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingNameController.m; sourceTree = "<group>"; };
+		167804631FEA6EFE005BAA91 /* KRSettingNameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingNameView.h; sourceTree = "<group>"; };
+		167804641FEA6EFE005BAA91 /* KRSettingNameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingNameView.m; sourceTree = "<group>"; };
+		167804831FEB65F6005BAA91 /* Target_KRMy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_KRMy.h; sourceTree = "<group>"; };
+		167804841FEB65F6005BAA91 /* Target_KRMy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_KRMy.m; sourceTree = "<group>"; };
+		16B043211FEA07C0000E9301 /* KRProfileSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRProfileSettingController.h; sourceTree = "<group>"; };
+		16B043221FEA07C0000E9301 /* KRProfileSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRProfileSettingController.m; sourceTree = "<group>"; };
+		16B043281FEA07C0000E9301 /* KRProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRProfileCell.h; sourceTree = "<group>"; };
+		16B043291FEA07C0000E9301 /* KRProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRProfileCell.m; sourceTree = "<group>"; };
+		16B0432A1FEA07C0000E9301 /* KRProfileSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRProfileSettingView.h; sourceTree = "<group>"; };
+		16B0432B1FEA07C0000E9301 /* KRProfileSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRProfileSettingView.m; sourceTree = "<group>"; };
+		16B043371FEA0920000E9301 /* KRSettingNicknameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingNicknameView.h; sourceTree = "<group>"; };
+		16B043381FEA0920000E9301 /* KRSettingNicknameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingNicknameView.m; sourceTree = "<group>"; };
+		16B0433A1FEA153D000E9301 /* KRSettingNicknameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingNicknameController.h; sourceTree = "<group>"; };
+		16B0433B1FEA153D000E9301 /* KRSettingNicknameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingNicknameController.m; sourceTree = "<group>"; };
+		D7ADF66E378066B52529B895 /* Pods-KRUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRUser/Pods-KRUser.release.xcconfig"; sourceTree = "<group>"; };
+		D7C573BDE0E5EF5A68AEC5E2 /* Pods-KRUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRUser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRUser/Pods-KRUser.debug.xcconfig"; sourceTree = "<group>"; };
+		E43E5BBD1C7C25E986AF6AC6 /* libPods-KRUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166F404D1FE7545E00A4CE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E02EE76748C0DEFC48C8FB /* libPods-KRUser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F40651FE7545E00A4CE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F40701FE7545E00A4CE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103A864AFDC34F9127569BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C573BDE0E5EF5A68AEC5E2 /* Pods-KRUser.debug.xcconfig */,
+				D7ADF66E378066B52529B895 /* Pods-KRUser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1633BCBC1FE8FBC200A26D9C /* ProfileSetting */ = {
+			isa = PBXGroup;
+			children = (
+				16B043511FEA4BA0000E9301 /* SettingName */,
+				16B043301FEA07FA000E9301 /* SettingNickname */,
+				16B0431F1FEA07C0000E9301 /* ProfileSetting */,
+			);
+			path = ProfileSetting;
+			sourceTree = "<group>";
+		};
+		166F40471FE7545E00A4CE78 = {
+			isa = PBXGroup;
+			children = (
+				166F40521FE7545E00A4CE78 /* KRUser */,
+				166F406B1FE7545E00A4CE78 /* KRUserTests */,
+				166F40761FE7545E00A4CE78 /* KRUserUITests */,
+				166F40511FE7545E00A4CE78 /* Products */,
+				103A864AFDC34F9127569BD9 /* Pods */,
+				61FF1FF9759F6CA66F5385F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		166F40511FE7545E00A4CE78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166F40501FE7545E00A4CE78 /* KRUser.app */,
+				166F40681FE7545E00A4CE78 /* KRUserTests.xctest */,
+				166F40731FE7545E00A4CE78 /* KRUserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166F40521FE7545E00A4CE78 /* KRUser */ = {
+			isa = PBXGroup;
+			children = (
+				166F40851FE755EA00A4CE78 /* Classes */,
+				166F40531FE7545E00A4CE78 /* AppDelegate.h */,
+				166F40541FE7545E00A4CE78 /* AppDelegate.m */,
+				166F405C1FE7545E00A4CE78 /* Assets.xcassets */,
+				166F405E1FE7545E00A4CE78 /* LaunchScreen.storyboard */,
+				166F40611FE7545E00A4CE78 /* Info.plist */,
+				166F40621FE7545E00A4CE78 /* main.m */,
+			);
+			path = KRUser;
+			sourceTree = "<group>";
+		};
+		166F406B1FE7545E00A4CE78 /* KRUserTests */ = {
+			isa = PBXGroup;
+			children = (
+				166F406C1FE7545E00A4CE78 /* KRUserTests.m */,
+				166F406E1FE7545E00A4CE78 /* Info.plist */,
+			);
+			path = KRUserTests;
+			sourceTree = "<group>";
+		};
+		166F40761FE7545E00A4CE78 /* KRUserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				166F40771FE7545E00A4CE78 /* KRUserUITests.m */,
+				166F40791FE7545E00A4CE78 /* Info.plist */,
+			);
+			path = KRUserUITests;
+			sourceTree = "<group>";
+		};
+		166F40851FE755EA00A4CE78 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				167804821FEB65A6005BAA91 /* Targets */,
+				166F40861FE75B7600A4CE78 /* My */,
+				1633BCBC1FE8FBC200A26D9C /* ProfileSetting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		166F40861FE75B7600A4CE78 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				166F40871FE75B7600A4CE78 /* Controller */,
+				166F40881FE75B7600A4CE78 /* Model */,
+				166F40891FE75B7600A4CE78 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		166F40871FE75B7600A4CE78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				166F408A1FE75D6000A4CE78 /* KRMyController.h */,
+				166F408B1FE75D6100A4CE78 /* KRMyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		166F40881FE75B7600A4CE78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		166F40891FE75B7600A4CE78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				166F408D1FE7603200A4CE78 /* KRMyView.h */,
+				166F408E1FE7603200A4CE78 /* KRMyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		167804821FEB65A6005BAA91 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				167804831FEB65F6005BAA91 /* Target_KRMy.h */,
+				167804841FEB65F6005BAA91 /* Target_KRMy.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		16B0431F1FEA07C0000E9301 /* ProfileSetting */ = {
+			isa = PBXGroup;
+			children = (
+				16B043201FEA07C0000E9301 /* Controller */,
+				16B043231FEA07C0000E9301 /* Model */,
+				16B043261FEA07C0000E9301 /* View */,
+			);
+			path = ProfileSetting;
+			sourceTree = "<group>";
+		};
+		16B043201FEA07C0000E9301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16B043211FEA07C0000E9301 /* KRProfileSettingController.h */,
+				16B043221FEA07C0000E9301 /* KRProfileSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16B043231FEA07C0000E9301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16B043261FEA07C0000E9301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16B043271FEA07C0000E9301 /* Cell */,
+				16B0432A1FEA07C0000E9301 /* KRProfileSettingView.h */,
+				16B0432B1FEA07C0000E9301 /* KRProfileSettingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16B043271FEA07C0000E9301 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				16B043281FEA07C0000E9301 /* KRProfileCell.h */,
+				16B043291FEA07C0000E9301 /* KRProfileCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		16B043301FEA07FA000E9301 /* SettingNickname */ = {
+			isa = PBXGroup;
+			children = (
+				16B043311FEA0808000E9301 /* Controller */,
+				16B043321FEA0808000E9301 /* Model */,
+				16B043331FEA0808000E9301 /* View */,
+			);
+			path = SettingNickname;
+			sourceTree = "<group>";
+		};
+		16B043311FEA0808000E9301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16B0433A1FEA153D000E9301 /* KRSettingNicknameController.h */,
+				16B0433B1FEA153D000E9301 /* KRSettingNicknameController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16B043321FEA0808000E9301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16B043331FEA0808000E9301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16B043371FEA0920000E9301 /* KRSettingNicknameView.h */,
+				16B043381FEA0920000E9301 /* KRSettingNicknameView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16B043511FEA4BA0000E9301 /* SettingName */ = {
+			isa = PBXGroup;
+			children = (
+				16B043521FEA4BA0000E9301 /* Contrller */,
+				16B043531FEA4BA0000E9301 /* Model */,
+				16B043541FEA4BA0000E9301 /* View */,
+			);
+			path = SettingName;
+			sourceTree = "<group>";
+		};
+		16B043521FEA4BA0000E9301 /* Contrller */ = {
+			isa = PBXGroup;
+			children = (
+				167804601FEA6EE6005BAA91 /* KRSettingNameController.h */,
+				167804611FEA6EE6005BAA91 /* KRSettingNameController.m */,
+			);
+			path = Contrller;
+			sourceTree = "<group>";
+		};
+		16B043531FEA4BA0000E9301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16B043541FEA4BA0000E9301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				167804631FEA6EFE005BAA91 /* KRSettingNameView.h */,
+				167804641FEA6EFE005BAA91 /* KRSettingNameView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		61FF1FF9759F6CA66F5385F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E43E5BBD1C7C25E986AF6AC6 /* libPods-KRUser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166F404F1FE7545E00A4CE78 /* KRUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F407C1FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUser" */;
+			buildPhases = (
+				3EF06170781B08B6C6649018 /* [CP] Check Pods Manifest.lock */,
+				166F404C1FE7545E00A4CE78 /* Sources */,
+				166F404D1FE7545E00A4CE78 /* Frameworks */,
+				166F404E1FE7545E00A4CE78 /* Resources */,
+				33B51BDD8B88444380DAD2B3 /* [CP] Embed Pods Frameworks */,
+				452008FC44216281F57BCD98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRUser;
+			productName = KRUser;
+			productReference = 166F40501FE7545E00A4CE78 /* KRUser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166F40671FE7545E00A4CE78 /* KRUserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F407F1FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUserTests" */;
+			buildPhases = (
+				166F40641FE7545E00A4CE78 /* Sources */,
+				166F40651FE7545E00A4CE78 /* Frameworks */,
+				166F40661FE7545E00A4CE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166F406A1FE7545E00A4CE78 /* PBXTargetDependency */,
+			);
+			name = KRUserTests;
+			productName = KRUserTests;
+			productReference = 166F40681FE7545E00A4CE78 /* KRUserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166F40721FE7545E00A4CE78 /* KRUserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166F40821FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUserUITests" */;
+			buildPhases = (
+				166F406F1FE7545E00A4CE78 /* Sources */,
+				166F40701FE7545E00A4CE78 /* Frameworks */,
+				166F40711FE7545E00A4CE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166F40751FE7545E00A4CE78 /* PBXTargetDependency */,
+			);
+			name = KRUserUITests;
+			productName = KRUserUITests;
+			productReference = 166F40731FE7545E00A4CE78 /* KRUserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166F40481FE7545E00A4CE78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KR;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ace;
+				TargetAttributes = {
+					166F404F1FE7545E00A4CE78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					166F40671FE7545E00A4CE78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 166F404F1FE7545E00A4CE78;
+					};
+					166F40721FE7545E00A4CE78 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 166F404F1FE7545E00A4CE78;
+					};
+				};
+			};
+			buildConfigurationList = 166F404B1FE7545E00A4CE78 /* Build configuration list for PBXProject "KRUser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166F40471FE7545E00A4CE78;
+			productRefGroup = 166F40511FE7545E00A4CE78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166F404F1FE7545E00A4CE78 /* KRUser */,
+				166F40671FE7545E00A4CE78 /* KRUserTests */,
+				166F40721FE7545E00A4CE78 /* KRUserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166F404E1FE7545E00A4CE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F40601FE7545E00A4CE78 /* LaunchScreen.storyboard in Resources */,
+				166F405D1FE7545E00A4CE78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F40661FE7545E00A4CE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F40711FE7545E00A4CE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B51BDD8B88444380DAD2B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRUser/Pods-KRUser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF06170781B08B6C6649018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRUser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452008FC44216281F57BCD98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRUser/Pods-KRUser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166F404C1FE7545E00A4CE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167804621FEA6EE6005BAA91 /* KRSettingNameController.m in Sources */,
+				167804651FEA6EFE005BAA91 /* KRSettingNameView.m in Sources */,
+				16B0432E1FEA07C0000E9301 /* KRProfileCell.m in Sources */,
+				16B0433D1FEA153D000E9301 /* KRSettingNicknameController.m in Sources */,
+				166F40631FE7545E00A4CE78 /* main.m in Sources */,
+				167804851FEB65F6005BAA91 /* Target_KRMy.m in Sources */,
+				16B0432C1FEA07C0000E9301 /* KRProfileSettingController.m in Sources */,
+				16B043391FEA0920000E9301 /* KRSettingNicknameView.m in Sources */,
+				166F408C1FE75D6100A4CE78 /* KRMyController.m in Sources */,
+				166F40551FE7545E00A4CE78 /* AppDelegate.m in Sources */,
+				16B0432F1FEA07C0000E9301 /* KRProfileSettingView.m in Sources */,
+				166F408F1FE7603200A4CE78 /* KRMyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F40641FE7545E00A4CE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F406D1FE7545E00A4CE78 /* KRUserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F406F1FE7545E00A4CE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166F40781FE7545E00A4CE78 /* KRUserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166F406A1FE7545E00A4CE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166F404F1FE7545E00A4CE78 /* KRUser */;
+			targetProxy = 166F40691FE7545E00A4CE78 /* PBXContainerItemProxy */;
+		};
+		166F40751FE7545E00A4CE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166F404F1FE7545E00A4CE78 /* KRUser */;
+			targetProxy = 166F40741FE7545E00A4CE78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166F405E1FE7545E00A4CE78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166F405F1FE7545E00A4CE78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166F407A1FE7545E00A4CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		166F407B1FE7545E00A4CE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166F407D1FE7545E00A4CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C573BDE0E5EF5A68AEC5E2 /* Pods-KRUser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/KRPublishLibrary/KRPublishLibrary/KRPublishLibrary/PrefixHeader.pch/";
+				INFOPLIST_FILE = KRUser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166F407E1FE7545E00A4CE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7ADF66E378066B52529B895 /* Pods-KRUser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/KRPublishLibrary/KRPublishLibrary/KRPublishLibrary/PrefixHeader.pch/";
+				INFOPLIST_FILE = KRUser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		166F40801FE7545E00A4CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRUserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRUser.app/KRUser";
+			};
+			name = Debug;
+		};
+		166F40811FE7545E00A4CE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRUserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRUser.app/KRUser";
+			};
+			name = Release;
+		};
+		166F40831FE7545E00A4CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRUserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRUser;
+			};
+			name = Debug;
+		};
+		166F40841FE7545E00A4CE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRUserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRUserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRUser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166F404B1FE7545E00A4CE78 /* Build configuration list for PBXProject "KRUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F407A1FE7545E00A4CE78 /* Debug */,
+				166F407B1FE7545E00A4CE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F407C1FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F407D1FE7545E00A4CE78 /* Debug */,
+				166F407E1FE7545E00A4CE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F407F1FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F40801FE7545E00A4CE78 /* Debug */,
+				166F40811FE7545E00A4CE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166F40821FE7545E00A4CE78 /* Build configuration list for PBXNativeTarget "KRUserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166F40831FE7545E00A4CE78 /* Debug */,
+				166F40841FE7545E00A4CE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166F40481FE7545E00A4CE78 /* Project object */;
+}

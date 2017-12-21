@@ -1,0 +1,12 @@
+PODS:
+  - KRPublishLibrary (0.0.8)
+
+DEPENDENCIES:
+  - KRPublishLibrary
+
+SPEC CHECKSUMS:
+  KRPublishLibrary: 02c993af8d7f2b77127dfe82ad33711c95cd4a6d
+
+PODFILE CHECKSUM: 2d8dc0b34b942576d4e6acff6c8ed5cdd8a73a76
+
+COCOAPODS: 1.3.1
